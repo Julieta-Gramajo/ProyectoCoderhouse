@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+/* H E A D E R */
+
+header{
+    background-color: #874356;
+}
+
+header>div{
+    margin: 20px;
+}
+
+header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+header div img{
+    width: 400px;
+}
+
+header div button{
+    background: none;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+header div button img{
+    width: 80px; 
+}
+
+header div div.desplegable {
+    display: none;
+}
+
+header div div.visible{
+    display: block;
+}
+
+header div div.desplegable{
+    position: absolute;
+    top: 94px;
+    right: 94px;
+    background-color: white;;
+    border: solid 3px #F1EEEE;
+    box-shadow:  0 0 9px 0.1px #F68989;
+    border-radius: 1px;
+    width: 500px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* C A R R I T O */
+
+.h3Carrito{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.h4Carrito2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+
+header div button p{
+    position: absolute;
+    top:0;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF6EA;
+    
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 50px;
+    border-bottom: solid 2px gray;
+}
+
+.carrito div h5{
+    margin: 0;
+    text-align: center;
+}
+
+.carrito div p{
+    padding: 5px 0;
+}
+
+.carrito div button{
+    margin: 10px 0;
+}
+
+.carrito img{
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#carrito .btnCarrito{
+    font-size: 14px;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total2{
+    margin-right: 5px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+/* B O T O N E S */
+
+.button, .button2 {
+    color: #F1EEEE;
+    padding: 0.8em 1.7em;
+    background-color: #C54569;
+    border-radius: .3em;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    border: 0.5px solid #F1EEEE;
+    text-transform: uppercase;
+    z-index: 1;
+    
+}
+
+.button:hover, .button2:hover {
+    transition: .3s;
+    box-shadow:  0 0 9px 0.1px #C54569;
+}
+
+.delete{
+    margin-top: 10px;
+}
+
+/* P R O D U C T O S */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, auto); 
+    grid-template-rows: repeat(5, auto); 
+    justify-content: center;
+}
+
+.tarjeta{
+    border: solid 1px #F1EEEE;
+    box-shadow:  0 0 9px 0.1px #F68989;
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.tarjeta:hover{
+    box-shadow:  0 0 9px 0.1px #C65D7B;
+    transition: .3s;
+}
+
+.tarjeta img{
+    width: 250px;
+}
+
+.p, .stock, .boton{
+    text-align: start;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: gray;
+    
+}
+
+.h5, h5{
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    text-align: start;
+    height: 40px;
+}
+
+.boton{
+    text-align: center;
+}
+
+/* B U S C A D O R */
+
+.form{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input{
+    padding: 20px;
+    width: 700px;
+    height: 40px;
+    border: solid 1px #F1EEEE;
+    box-shadow:  0 0 9px 0.1px #F68989;
+    border-radius: 2%;
+    outline: none;
+    margin-right: 5px;
+}
+
+.form button{
+    background: none;
+    border: none;
+    width: 40px;
+}
+
+.form button img{
+    width: 30px;
+}
+
+/* F O O T E R */
+
+.footer{
+    background-color: #874356;
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.footer div ul li div a img{
+    width: 40px;
+}
+
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #FFF6EA;
+    margin-bottom: 10px;
+}
+
+.footer div ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer div ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer div ul li img {
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.footer div ul li img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 5px #f6a89c;
+}
+
+.footer div form input::placeholder{
+    color: #fff;
+}
+
+.footer div form input {
+    color: #fff;
+    padding: 11px;
+    background-color: #fdb1b3;
+    border-radius: .3em;
+    position: relative;
+    transition: .5s;
+    font-size: 16px;
+    border: 1px solid ;
+    font-family: inherit;
+    text-transform: uppercase;
+    outline: none;
+}

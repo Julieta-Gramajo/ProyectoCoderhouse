@@ -1,0 +1,184 @@
+[
+    {
+    "id": 1, 
+    "categoria": "perfumeria", 
+    "tipo": "perfume", 
+    "nombre": "kaiak vital femenino", 
+    "precio": 4722, 
+    "stock": 5, 
+    "img": "./img/perfume1.jpg",
+    "unidades": 1
+    },
+    {
+    "id": 2, 
+    "categoria": "perfumeria", 
+    "tipo": "perfume", 
+    "nombre": "frescor ekos pataqueira", 
+    "precio": 3346, 
+    "stock": 5, 
+    "img": "./img/perfume2.jpg",
+    "unidades": 1
+    },
+    {
+    "id": 3, 
+    "categoria": "perfumeria", 
+    "tipo": "perfume", 
+    "nombre": "essencial eau de parfum femenino", 
+    "precio": 11230, 
+    "stock": 5, 
+    "img": "./img/perfume3.jpg"
+    },
+    {
+    "id": 4, 
+    "categoria": "perfumeria", 
+    "tipo": "perfume", 
+    "nombre": "kriska sonhos",
+    "precio": 3703, 
+    "stock": 5, 
+    "img": "./img/perfume4.jpg"
+    },
+    {
+    "id": 5, 
+    "categoria": "perfumeria", 
+    "tipo": "perfume", 
+    "nombre": "natura homem car.agio",
+    "precio": 10770, 
+    "stock": 5, 
+    "img": "./img/perfume5.jpg"
+    },
+    {
+    "id": 6, 
+    "categoria": "cuidados diarios", 
+    "tipo": "crema", 
+    "nombre": "pulpa hidratante para manos ekos castaña",
+    "precio": 1385, 
+    "stock": 5, 
+    "img": "./img/crema1.jpg"
+    },
+    {
+    "id": 7, 
+    "categoria": "cuidados diarios", 
+    "tipo": "crema", 
+    "nombre": "tododia hidratante lichia y flor de cassis",
+    "precio": 1603, 
+    "stock": 5, 
+    "img": "./img/crema2.jpg"
+    },
+    {
+    "id": 8, 
+    "categoria": "cuidados diarios", 
+    "tipo": "crema", 
+    "nombre": "hidratante de cuerpo ekos breu branco",
+    "precio": 1196, 
+    "stock": 5, 
+    "img": "./img/crema3.jpg"
+    },
+    {
+    "id": 9, 
+    "categoria": "cuidados diarios", 
+    "tipo": "crema", 
+    "nombre": "hidratante corporal hojas de limón y guanabana",
+    "precio": 865, 
+    "stock": 5, 
+    "img": "./img/crema4.jpg"
+    },
+    {
+    "id": 10, 
+    "categoria": "cuidados diarios", 
+    "tipo": "crema", 
+    "nombre": "crema nutritiva corporal tododia dátiles y canela",
+    "precio": 2061, 
+    "stock": 5, 
+    "img": "./img/crema5.jpg"
+    },
+    {
+    "id": 11, 
+    "categoria": "cabello", 
+    "tipo": "shampoo", 
+    "nombre": "repuesto shampoo liso y suelto",
+    "precio": 735, 
+    "stock": 5, 
+    "img": "./img/cabello1.jpg"
+    },
+    {
+    "id": 12, 
+    "categoria": "cabello", 
+    "tipo": "acondicionador", 
+    "nombre": "repuesto acondicionador liso y suelto",
+    "precio": 662, 
+    "stock": 5, 
+    "img": "./img/cabello2.jpg"
+    },
+    {
+    "id": 13, 
+    "categoria": "cabello", 
+    "tipo": "shampoo", 
+    "nombre": "repuesto shampoo revitalización post-química",
+    "precio": 735, 
+    "stock": 5, 
+    "img": "./img/cabello3.jpg"
+    },
+    {
+    "id": 14, 
+    "categoria": "cabello", 
+    "tipo": "shampoo", 
+    "nombre": "repuesto shampoo reequilibrante",
+    "precio": 884, 
+    "stock": 5, 
+    "img": "./img/cabello4.jpg"
+    },
+    {
+    "id": 15, 
+    "categoria": "cabello", 
+    "tipo": "shampoo", 
+    "nombre": "shampoo ekos patauá",
+    "precio": 1096, 
+    "stock": 5, 
+    "img": "./img/cabello5.jpg"
+    },
+    {
+    "id": 16, 
+    "categoria": "maquillaje", 
+    "tipo": "labial", 
+    "nombre": "labial ultra hidratante FPS15 UNA",
+    "precio": 1908, 
+    "stock": 5, 
+    "img": "./img/maquillaje1.jpg"
+    },
+    {
+    "id": 17, 
+    "categoria": "maquillaje", 
+    "tipo": "mascara", 
+    "nombre": "máscara una secret",
+    "precio": 2989, 
+    "stock": 5, 
+    "img": "./img/maquillaje2.jpg"
+    },
+    {
+    "id": 18, 
+    "categoria": "maquillaje", 
+    "tipo": "corrector", 
+    "nombre": "corrector alta cobertura UNA",
+    "precio": 1755, 
+    "stock": 5, 
+    "img": "./img/maquillaje3.jpg"
+    },
+    {
+    "id": 19, 
+    "categoria": "maquillaje", 
+    "tipo": "paletas", 
+    "nombre": "maxi paleta de sombras intenso",
+    "precio": 5793, 
+    "stock": 5, 
+    "img": "./img/maquillaje4.jpg"
+    },
+    {
+    "id": 20, 
+    "categoria": "maquillaje", 
+    "tipo": "delineador", 
+    "nombre": "delineador líquido de ojos",
+    "precio": 1290, 
+    "stock": 5, 
+    "img": "./img/maquillaje5.jpg"
+    }
+]

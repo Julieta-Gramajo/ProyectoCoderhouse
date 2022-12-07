@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logorosaredondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Entrega de Proyecto Final</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="./img/logorosa.png" alt="">
+
+            <button id="menu">
+                <img src="./img/bolsa.png" id="menu-abrir">
+                <p id="contador">0</p>
+            </button>
+
+            <div class="desplegable">
+                <h3 id="h3Carrito" class="h3Carrito">Carrito</h3>
+                <h4 id="h4Carrito2" class="h4Carrito2">Tu carrito está vacío.</h4>
+                <div id="carrito"></div>
+                <div class="total">
+                    <p class="total2">total: $ </p><p id="total3" class="total2">0</p>
+                    <p id="total"> </p>
+                </div>
+                <button id="vaciar" class="button2">Vaciar carrito</button>
+                <button id="finalizar" class="button2">Finalizar compra</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div>
+            <section>
+                <form class="form">
+                    <input class="buscador" id="input" type="text" autocomplete="off" placeholder="Busque un producto..">
+                    <button><img src="./img/search.png" alt=""></button>
+                </form>
+            </section>
+            <section id="section">  
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h4>Redes Sociales</h4>
+            <ul>
+                <li>
+                    <div>
+                        <a href="">
+                            <img src="./img/whatsapp.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/facebook.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/instagram.png" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>¡Recibí nuestras ofertas!</h4>
+            <form>
+                <input type="text" placeholder="Escribe tu e-mail">
+                <button class="button">Suscribirse</button>
+            </form>
+        </div>
+        <div class="main__texto1">
+            <h4>Desarrollada por:</h4>
+            <h4>Julieta Gramajo</h4>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
